@@ -1,0 +1,41 @@
+{
+  "name": "@spencercreative/eslint-config",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spencercreative/eslint-config"
+  },
+  "keywords": [
+    "spencercreative",
+    "spencer creative",
+    "eslint",
+    "eslint config"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "packageManager": "yarn@3.3.0",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
+    "eslint": "^8.29.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.5.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest-dom": "^4.0.3",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "eslintConfig": {
+    "extends": "./index.js",
+    "root": true
+  }
+}

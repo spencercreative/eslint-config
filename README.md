@@ -1,4 +1,4 @@
-# @spencercreative/eslint-config
+# @spencerlabs/eslint-config
 
 ESLint configuration for Spencer Creative
 
@@ -6,10 +6,10 @@ ESLint configuration for Spencer Creative
 
 ```bash
 # npm
-npm i -D @spencercreative/eslint-config
+npm i -D @spencerlabs/eslint-config
 
 # yarn
-yarn add -D @spencercreative/eslint-config
+yarn add -D @spencerlabs/eslint-config
 ```
 
 ## Add to ESLint Config
@@ -18,7 +18,7 @@ yarn add -D @spencercreative/eslint-config
 {
   "extends": [
     // ... other configs
-    "@spencercreative/eslint-config"
+    "@spencerlabs/eslint-config"
   ],
 }
 ```

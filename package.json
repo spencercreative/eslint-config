@@ -1,11 +1,13 @@
 {
-  "name": "@spencercreative/eslint-config",
+  "name": "@spencerlabs/eslint-config",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/spencercreative/eslint-config"
+    "url": "https://github.com/spencerlabs/eslint-config"
   },
   "keywords": [
+    "spencerlabs",
+    "spencer labs",
     "spencercreative",
     "spencer creative",
     "eslint",
